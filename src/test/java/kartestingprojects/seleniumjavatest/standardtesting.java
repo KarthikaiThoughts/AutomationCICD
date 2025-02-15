@@ -32,6 +32,7 @@ public class standardtesting extends registerforOrders {
 		//login user
 		//w.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("//*[contains(text(),'Login')]")));
 		//driver.findElement(By.xpath("//*[contains(text(),'Login')]")).click();
+		//this is for testing cicd
 		driver.get("https://rahulshettyacademy.com/client");
 		driver.findElement(By.id("userEmail")).sendKeys(loginInfo.get(0));
 		driver.findElement(By.id("userPassword")).sendKeys(loginInfo.get(1));
