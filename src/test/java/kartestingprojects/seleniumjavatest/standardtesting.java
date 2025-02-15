@@ -36,7 +36,7 @@ public class standardtesting extends registerforOrders {
 		driver.findElement(By.id("userEmail")).sendKeys(loginInfo.get(0));
 		driver.findElement(By.id("userPassword")).sendKeys(loginInfo.get(1));
 		driver.findElement(By.id("login")).click();
-		String[] originalList= {"ADIDAS ORIGINAL", "IPHONE 13 PRO", "QWERTY"};
+		String[] originalList= {"ADIDAS ORIGINAL", "IPHONE 13 PRO", "ZARA COAT 3"};
 		w.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".mb-3")));
 		List<WebElement> itemNamesAsWebElement=driver.findElements(By.xpath("//div/h5"));
 		List<String> originalList1=Arrays.asList(originalList);

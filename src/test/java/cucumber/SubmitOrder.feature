@@ -14,5 +14,5 @@ Feature: Purchase the order from Ecommerce Website
 
     Examples: 
       | name  												 | password 			| product  					|
-      | Karthikai@gmail.com 					 | Dec2024@379  	| QWERTY	 					|
+      | Karthikai@gmail.com 					 | Dec2024@379  	| ZARA COAT 3	 					|
       | karthikaidurgaprasad@gmail.com | Karthikai@123	| IPHONE 13 PRO     |

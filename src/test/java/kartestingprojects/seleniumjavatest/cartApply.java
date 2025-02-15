@@ -31,7 +31,7 @@ import kartestingprojects.seleniumjavamain.landingPage;
 import kartestingprojects.seleniumjavamain.productCatalogue;
 
 public class cartApply extends baseDataGeneral{
-	String selProduct="QWERTY";
+	String selProduct="ZARA COAT 3";
 	@Test(dataProvider = "getData",groups= {"Purchase"})
 
 	public void submitProductTest(HashMap<String, String> input) throws InterruptedException, IOException {
